@@ -1,0 +1,73 @@
+
+.header{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+.btn{
+  background-color: green;
+  font-size: 20px;
+  padding: 13px 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 35px;
+}
+.btn:hover{
+  background-color: rgb(21, 70, 21);
+  text-decoration: underline;
+  
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+.container > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container > ul {
+  list-style: "none";
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.navigate{
+  display: flex;
+  background-color: rgb(24, 24, 26);
+  text-decoration: none;
+  padding: 10px;
+}
+.list{
+  list-style: none;
+  margin: 10px;
+}
+.connectToPath{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: rgb(10, 10, 153);
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.connectToPath:hover{
+  background-color: rgb(26, 153, 153);
+}
+.connectToPath.active{
+  background-color: rgb(13, 44, 196);
+  text-decoration: underline;
+}
+
+.date{
+  /* background-color: rgb(58, 122, 58); */
+  margin-left: -35px;
+  font-size: 18px;
+}
